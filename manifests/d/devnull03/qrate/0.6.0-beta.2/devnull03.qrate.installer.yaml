@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: devnull03.qrate
+PackageVersion: 0.6.0-beta.2
+InstallerType: msi
+Scope: machine
+ReleaseDate: 2026-09-28
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/devnull03/qrate/releases/download/v0.6.0-beta.2/qrate-0.6.0-beta.2-x86_64.msi
+  InstallerSha256: 7EE2C7776C5865560334299A2543736E5A233B5690EF1936F6743DD38360ADC6
+  ProductCode: '{B99AD6B3-DDFE-4252-9D37-689146FF45B7}'
+  AppsAndFeaturesEntries:
+  - DisplayName: qrate
+    Publisher: devnull03
+    DisplayVersion: 0.6.0.0
+    ProductCode: '{B99AD6B3-DDFE-4252-9D37-689146FF45B7}'
+ManifestType: installer
+ManifestVersion: 1.12.0
